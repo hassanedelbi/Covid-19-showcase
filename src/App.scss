@@ -1,0 +1,36 @@
+:root{
+    --green: #108E59;
+    --darkGreen: #035755;
+    --red: #FB4C47;
+    --darkRed: #B63A37;
+}
+
+@font-face {
+    font-family: 'gelion';
+    src: url('../src/fonts/Gelion-Regular.ttf');
+}
+
+@font-face { 
+    font-family: 'redHatDisplay-medium';
+    src: url('../src/fonts/RedHatDisplay-Medium.ttf');
+}
+@font-face { 
+    font-family: 'redHatDisplay-regular';
+    src: url('../src/fonts/RedHatDisplay-Regular.ttf');
+}
+
+* {
+  font-family: 'gelion';
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(255,248,248);
+}
+
+h1, h2, h3, h4, h5, h6, li, p {
+    font-family: 'gelion';
+}
