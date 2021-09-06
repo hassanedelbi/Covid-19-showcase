@@ -2,6 +2,8 @@
 
 Simple Showcase project to visualize some information about Covid-19
 
+Website: https://he-covid.netlify.app
+
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/) to install Covid-19 showcase.
@@ -9,6 +11,10 @@ Use the package manager [npm](https://www.npmjs.com/) to install Covid-19 showca
 ```bash
 npm install
 ```
+
+## Todo
+
+Enhance the website responsiveness
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
