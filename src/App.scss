@@ -3,6 +3,8 @@
     --darkGreen: #035755;
     --red: #FB4C47;
     --darkRed: #B63A37;
+    --gray: #4B4F51;
+    --lightPink: #fff8f8;
 }
 
 @font-face {
@@ -28,9 +30,24 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: rgb(255,248,248);
+    background: var(--lightPink);
 }
 
 h1, h2, h3, h4, h5, h6, li, p {
     font-family: 'gelion';
+}
+
+h4{
+    color: var(--gray);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-reverse{
+    flex-direction: row-reverse;
 }

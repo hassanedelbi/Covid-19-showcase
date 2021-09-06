@@ -37,8 +37,12 @@
 		padding: 1rem 2.5rem;
 		font-weight: 700;
 		border: none;
-        font-size: 18px;
+		font-size: 18px;
 		text-transform: uppercase;
-
+		&:hover {
+			color: var(--red);
+			background: rgba(250, 86, 82, 0.15);
+			cursor: pointer;
+		}
 	}
 }

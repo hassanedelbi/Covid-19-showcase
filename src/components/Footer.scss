@@ -1,0 +1,104 @@
+.top-footer {
+	margin: 1rem 10rem;
+	justify-content: space-between;
+	li {
+		list-style: none;
+	}
+}
+
+.footer-center {
+	margin-right: 2rem;
+	ul.flex-row {
+		align-items: center;
+		cursor: pointer;
+		li {
+			font-size: 18px;
+			list-style: none;
+			margin-right: 2rem;
+			cursor: pointer !important;
+			border-width: 0px;
+			position: relative;
+			padding-top: 8px;
+			padding-bottom: 0.5rem;
+			letter-spacing: 1.5px;
+			&::after {
+				background: none repeat scroll 0 0 transparent;
+				bottom: 0;
+				content: "";
+				display: block;
+				height: 2px;
+				left: 50%;
+				position: absolute;
+				background: red;
+				transition: width 0.3s ease 0s, left 0.3s ease 0s;
+				width: 0;
+			}
+			&:hover {
+				color: var(--red);
+				transition: width 0.3s ease 0s, left 0.3s ease 0s;
+				&::after {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
+	}
+}
+
+.footer-right {
+	margin-right: 2rem;
+	ul.flex-row {
+		align-items: center;
+		cursor: pointer;
+		li {
+			font-size: 18px;
+			list-style: none;
+			margin-right: 2rem;
+			cursor: pointer !important;
+			border-width: 0px;
+			position: relative;
+			padding-top: 8px;
+			padding-bottom: 0.5rem;
+			letter-spacing: 1.5px;
+			&::after {
+				background: none repeat scroll 0 0 transparent;
+				bottom: 0;
+				content: "";
+				display: block;
+				height: 2px;
+				left: 50%;
+				position: absolute;
+				background: red;
+				transition: width 0.3s ease 0s, left 0.3s ease 0s;
+				width: 0;
+			}
+			&:hover {
+				color: var(--red);
+				transition: width 0.3s ease 0s, left 0.3s ease 0s;
+				&::after {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
+	}
+	span {
+		color: var(--darkGreen);
+		font-weight: 700;
+		padding-left: 1rem;
+		font-size: 22px;
+	}
+}
+
+.bot-footer p {
+	text-align: center;
+	margin-left: -5rem;
+	a {
+        text-decoration: none;
+        font-weight: 700;
+        color: black;
+        &:visited{
+            color: black;
+        }
+    }
+}

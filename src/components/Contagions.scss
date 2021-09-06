@@ -1,0 +1,41 @@
+.contagions-container{
+	height: 50rem;
+    text-align: center;
+	position: relative;
+	overflow: hidden;
+    h2 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 27px;
+		color: var(--red);
+	}
+	h1 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 37px;
+		line-height: 72px;
+		color: var(--darkGreen);
+	}
+	h4 {
+		font-family: Gelion;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 33px;
+		text-transform: capitalize;
+	}
+}
+
+.contagion-list{
+	&:before{
+		content: '';
+		background: url(../images/contagionBack.png) no-repeat;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 33rem;
+		left: 5.7rem;
+		z-index: 1;
+	}
+}

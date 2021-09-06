@@ -3,7 +3,7 @@ import "./Main.scss";
 
 import mainImage from "../images/SectionOneImage.png";
 
-const Main = () => {
+const Main = (props) => {
 	return (
 		<section className="main-container">
 			<div className="main-left">

@@ -1,0 +1,29 @@
+.to-do-left {
+	width: 40rem;
+	img {
+		width: 25rem;
+		height: 25rem;
+	}
+}
+
+.to-do-right{
+	width: 40rem;
+}
+
+.right-right {
+	align-self: flex-start;
+	h1 {
+		color: var(--red);
+		background: rgba(250, 86, 82, 0.15);
+		border-radius: 100%;
+		padding: 0 10px;
+		border: none;
+		font-size: 2rem;
+	}
+}
+.right-left {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+    padding: 0 5rem;
+}
